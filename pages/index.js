@@ -7,7 +7,8 @@ import Carousel from '../components/Carousel';
 import Services from '../components/Services';
 import Contact from '../components/Contact';
 import Footer from '../components/Footer';
-import styles from '../styles/globals.scss';
+import '../styles/globals.module.scss';
+import styles from '../styles/Home.module.css';
 
 export default function Home() {
     return (

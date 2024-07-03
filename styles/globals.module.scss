@@ -1,23 +1,9 @@
-// styles/globals.module.scss
-
-@import './components/Header';
-@import './components/banner';
-@import './components/about';
-@import './components/cta';
-@import './components/carousel';
-@import './components/services';
-@import './components/contact';
-@import './components/socialLinks';
-@import './components/footer';
-
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-}
-
-.container {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 0 15px;
-}
+@import './components/header.module.scss';
+@import './components/banner.module.scss';
+@import './components/about.module.scss';
+@import './components/cta.module.scss';
+@import './components/carousel.module.scss';
+@import './components/services.module.scss';
+@import './components/contact.module.scss';
+@import './components/socialLinks.module.scss';
+@import './components/footer.module.scss';

@@ -4,7 +4,7 @@ const Contact = () => {
   return (
     <section className={styles.contact} id="contact">
       <h2>Contato</h2>
-      <form action="https://formspree.io/f/mzbqlkwl" method="POST">
+      <form action="https://formspree.io/f/mqazkldl" method="POST">
         <input type="text" name="name" placeholder="Seu Nome" required />
         <input type="email" name="email" placeholder="Seu Email" required />
         <textarea name="message" placeholder="Sua Mensagem" required></textarea>
