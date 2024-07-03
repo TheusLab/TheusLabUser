@@ -1,12 +1,16 @@
 {
   "version": 2,
-  "builds": [{ "src": "next.config.js", "use": "@vercel/node" }],
-  "routes": [
-    { "handle": "filesystem" },
+  "builds": [
     {
-      "src": "/api/(.*)",
-      "dest": "/api/$1"
+      "src": "next.config.mjs",
+      "use": "@vercel/node"
     },
+    {
+      "src": "package.json",
+      "use": "@vercel/node"
+    }
+  ],
+  "routes": [
     {
       "src": "/(.*)",
       "dest": "/$1"
