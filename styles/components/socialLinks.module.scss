@@ -1,0 +1,20 @@
+.socialLinks {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+
+    a {
+        color: #333;
+        margin: 0 10px;
+        transition: color 0.3s, transform 0.3s;
+
+        &:hover {
+            color: #ff6347;
+            transform: scale(1.2);
+        }
+
+        svg {
+            vertical-align: middle;
+        }
+    }
+}

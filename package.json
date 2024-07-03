@@ -1,20 +1,31 @@
 {
   "name": "meu-portfolio",
-  "version": "0.1.0",
-  "private": true,
+  "version": "1.0.0",
+  "description": "Portfólio de Matheus Henrique da Silva",
+  "main": "index.js",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"
   },
+  "keywords": [
+    "portfolio",
+    "nextjs",
+    "react"
+  ],
+  "author": "Matheus Henrique da Silva",
+  "license": "MIT",
   "dependencies": {
-    "react": "^18",
-    "react-dom": "^18",
-    "next": "14.2.4"
-  },
-  "devDependencies": {
-    "eslint": "^8",
-    "eslint-config-next": "14.2.4"
+    "aos": "^3.0.0-beta.6",
+    "framer-motion": "^7.0.0",
+    "next": "latest",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-icons": "^4.10.1",
+    "react-slick": "^0.28.1",
+    "react-scroll-parallax": "^3.2.0",
+    "sass": "^1.62.1",
+    "slick-carousel": "^1.8.1"
   }
 }

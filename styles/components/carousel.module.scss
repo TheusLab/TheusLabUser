@@ -1,0 +1,15 @@
+.carousel {
+    margin: 50px 0;
+
+    .carouselItem {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+    }
+
+    .slick-prev,
+    .slick-next {
+        color: #333;
+    }
+}

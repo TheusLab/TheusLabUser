@@ -1,0 +1,27 @@
+.about {
+    display: flex;
+    align-items: center;
+    padding: 50px 20px;
+
+    .profilePicContainer {
+        margin-right: 20px;
+
+        .profilePic {
+            border-radius: 50%;
+        }
+    }
+
+    .bio {
+        max-width: 600px;
+
+        h2 {
+            margin-bottom: 20px;
+            font-size: 2rem;
+        }
+
+        p {
+            font-size: 1.2rem;
+            line-height: 1.6;
+        }
+    }
+}
